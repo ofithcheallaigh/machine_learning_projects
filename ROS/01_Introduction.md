@@ -11,4 +11,6 @@ It also provides tools and libraries for obtaining, building, writing, and runni
 multiple comouters. ROS is similar in some respects to "robot framesworks" such as Player, YARP, 
 Orocos, CARMEN, Orca, MOSS and Microsoft Robotics Studio.   
 
-
+The ROS runtime "graph" is a peer-to-peer network process (potentially distributed across 
+machines) that are loosely coupled using tje ROS communication infrastructure. ROS implements 
+several different styles of communcation, including synchronous 
