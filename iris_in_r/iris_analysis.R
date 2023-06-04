@@ -1,7 +1,0 @@
-library(hrbrthemes)
-library(tidyverse)
-library(ggridges)
-library(ggthemes)
-library(cowplot)
-library(viridis)
-library(GGally)
