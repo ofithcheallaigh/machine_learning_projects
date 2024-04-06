@@ -5,6 +5,15 @@ from matplotlib.figure import Figure
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 import pandas as pd
 
+'''
+TODO:
+Add a GUI title
+Show the gradient figure
+Can we stream data in?
+What about logic to monitor the gradient and only start saving data when the gradient is above a certain value?
+Add a waring if the data is not in the correct format in the CSV file
+'''
+
 def calculate_gradient(points):
     coefficients = np.polyfit([point[0] for point in points], [point[1] for point in points], 1)
     return coefficients[0]
